@@ -1,5 +1,7 @@
-a = 3
-b = 4
-c = (a**2 + b**2)
-c = c**0.5
-print("The hypotenuse of the triangle ABC = ", c)
+number = int ( input ("Enter a whole number: "))
+if (number % 2) == 0:
+    print("The number is even", number)
+
+else:
+    print("The number is odd", number)
+
