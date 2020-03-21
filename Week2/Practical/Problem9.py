@@ -1,0 +1,10 @@
+import datetime, time, calendar
+a = datetime.datetime.today()
+b = datetime.date.today()
+c = datetime.timedelta(days = 5)
+print('Current date and time', a)
+print('The value of the current year', b.year)
+print('The value of the current month', b.month)
+print('The value of the current day of the week', b.isoweekday())
+print('Date today - 5 days: ', a - c)
+print('Date today + 5 days: ', a + c)
