@@ -1,5 +1,5 @@
 correct_num = 5
-guess = int(input('Input a integer: '))
+guess = int(input('Input an integer: '))
 for n in range(10):
     if guess == correct_num:
         print('That was a good guess!')
