@@ -2,8 +2,5 @@ market = {'dairy': ['yogurt', 'cheese'], 'fruits': ['banana', 'apple', 'orange',
 print(market)
 market.update({'candies' : ['mars', 'kinder', 'twix']})
 print(market)
-a = market['fruits']
-b = set(a)
-c = list(b)
-c.sort()
-print(c)
+market["fruits"] = sorted(list(set(market["fruits"])))
+print(market)

@@ -1,13 +1,7 @@
 correct_num = 5
-guess = int(input('Input a integer: '))
-for n in range(11):
-    if guess == correct_num:
-        print('That was a good guess!')
-        break
-    elif n == 10:
-        break
-    elif n == 8:
-        print('Your Last Chance')
-    else:
-        guess = int(input('Input a integer: '))
-print('Goodbye!')
+guess = int(input("Take a guess: "))
+
+while guess != correct_num:
+    guess = int(input("Take a guess: "))
+
+print("That was a good guess!")

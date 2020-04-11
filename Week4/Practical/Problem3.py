@@ -6,5 +6,5 @@ if name == 'Batman':
 else:
     if age < 16:
         print('Dear', name, 'you are too young to register')
-    if ('*' not in password) or ('&'  not in password):
+    if ('*' not in password) and ('&'  not in password):
         print('Please enter a different password')

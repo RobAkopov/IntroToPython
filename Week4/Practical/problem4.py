@@ -3,5 +3,5 @@ if 'weight' in d:
     print({'weight' : 100})
 else:
     n = input('Write a value: ')
-    d.update({'weight' : n})
+    d["weight"] = n
     print(d)
